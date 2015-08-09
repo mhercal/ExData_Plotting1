@@ -22,7 +22,7 @@ w<-datos_limpios$Sub_metering_3
 
 #Print the four graphs in a PNG
 png("plot4.png", width=480, height=480)
-par(mfrow=c(2,2), family="Tahoma")
+par(mfrow=c(2,2))
 
 plot(x=datos_limpios$Tiempo, y=datos_limpios$Global_active_power, type="l", ylab="Global Active Power", xlab="")
 
